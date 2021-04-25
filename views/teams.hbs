@@ -1,0 +1,25 @@
+ <div class="container">
+  
+        {{#each teams}}
+  <div class="row">
+      <div class="col s12 m15">
+        <div class="card block">
+          <div class="card-image">
+            <img class='logo' src="{{this.logo_url}}">
+          </div>
+            <span class="card span">{{this.name}}</span>
+          <div class="card-content">
+            <p><b>Rating:</b> <span>{{this.rating}}</span></p>
+            <p><b>Wins:</b> <span>{{this.wins}}</span></p>
+            <p><b>Losses:</b> <span>{{this.losses}}</span></p>
+            <p><b>Tag:</b> <span>{{this.tag}}</span></p>
+          </div>
+          <div class="card-action">
+            <button class='card button'><a style='color: black;'href="https://www.google.com/search?q={{this.name}}">{{this.name}}</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+        {{/each}}
+  
+</div>

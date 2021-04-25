@@ -1,0 +1,27 @@
+{{!-- {{#if findPlayer}}
+<p>findPlayer: {{findPlayer.solo_competitive_rank}}</p>
+{{/if}} --}}
+  <div class="container">
+     {{#each players}}
+  <div class="row">
+      <div class="col s12 m15">
+        <div class="card block">
+          <div class="card-image">
+            <img class='logo image' src="{{this.avatar}}">
+          </div>
+            <span class="card span">{{this.personaname}}</span>
+          <div class="card-content">
+            <p><b>Team:</b> <span>{{this.team_name}}</span></p>
+            <p><b>Pro (true/false):</b> <span>{{this.is_pro}}</span></p>
+            <p><b>Steam ID:</b> <span>{{this.steamid}}</span></p>
+            <p><b>Profile:</b> <span>{{this.profileurl}}</span></p>
+          </div>
+          <div class="card-action">
+            <button class='card button'><a style='color: black;'href="https://www.google.com/search?q={{this.team_name}}">{{this.team_name}}</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+        {{/each}}
+  </div>
+     

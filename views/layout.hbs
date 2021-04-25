@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {{!-- MATERIALIZE STYLES --}}
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  {{!-- MY STYLES --}}
+  <link rel="stylesheet" href="/styles/style.css">
+  {{!-- APPLICATION SCRIPT --}}
+  <script defer src='/scripts/application.js'></script>
+  {{!-- HEROES SCRIPT --}}
+  <script defer src='/scripts/heroes.js'></script>
+  <title>DOTOBIFF</title>
+</head>
+<body>
+  <header class='header'>
+    <nav class='nav'>
+    <div class="nav-wrapper">
+      <a href="/" class="brand-logo left doto">DOTOBIFF </a>
+      <a href="/"><img src="https://img.icons8.com/dusk/64/000000/dota.png" class="brand-logo left"/></a>
+      
+      <ul id="nav-mobile" class="right hide-on-med-and-down navigation">
+        <li><a href="/players" class='players a'>Players</a></li>
+        <li><a href="#" class='teams a'>Teams</a></li>
+        <li><a href="/heroes" class='heroes a'>Heroes</a></li>
+        <li><a href="/stats" class='stats a'>Stats</a></li>
+        <li><a href="/matches" class='matches a'>Matches</a></li>
+        <li><input id="search" type="text" class='a' required placeholder="Find your player"></li>
+        <li><button id="search-button">Search</button></li>
+      </ul>
+    </div>
+  </nav>
+  </header>
+  
+  <div class="background">
+    {{{body}}}
+  </div>
+</body>
+</html>

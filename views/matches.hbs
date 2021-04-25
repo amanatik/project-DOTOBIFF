@@ -1,0 +1,7 @@
+<div class="go-matches" style='display: flex; flex-wrap: wrap; justify-content:space-evenly; flex-direction:column'>
+  {{#each matches}}
+    <div >
+      <a href="/replays/{{this.match_id}}" style='color: #ee6e73'><h4 class="li">{{this.match_id}}</h4></a>
+    </div>
+  {{/each}}
+</div>

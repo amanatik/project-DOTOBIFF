@@ -1,0 +1,39 @@
+<div class="main">
+  <div class="hero-1">
+    <h2 style="color: #ee6e73;">Agility</h2>
+    {{#each agi}}
+    <div class="agi hero">
+      <img src="{{this.avatar}}">
+      <p>Player name: {{this.personaname}}</p>
+      <p>Player id: {{this.account_id}}</p>
+      <p>Score: {{this.score}}</p>
+      <p>Tier rank: {{this.rank_tier}}</p>
+      <a href="{{this.profileurl}}"></a>
+    </div>
+  {{/each}}
+  </div>
+  
+  <div class="hero-1">
+    <h2 style="color: #ee6e73;">Strength</h2>  
+  {{#each str}}
+    <div class="str hero">
+      <p>Hero name: {{this.localized_name}}</p>
+      <p>Hero id: {{this.id}}</p>
+      <p>Attack type: {{this.attack_type}}</p>
+    </div>
+  {{/each}}
+  </div>
+  
+  <div class="hero-1">
+    <h2 style="color: #ee6e73;">Inteligence</h2>
+    {{#each int}}
+    <div class="int hero">
+      <p>Hero name: {{this.localized_name}}</p>
+      <p>Hero id: {{this.id}}</p>
+      <p>Attack type: {{this.attack_type}}</p>
+    </div>
+  {{/each}}
+  </div>
+  
+</div>
+

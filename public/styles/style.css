@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Original+Surfer&display=swap');
+.nav {
+  font-family: 'Indie Flower', cursive;
+}
+
+body {
+  background: url('https://images6.alphacoders.com/389/thumb-1920-389196.jpg') center center fixed no-repeat;
+  height: 80vh;
+  font-family: 'Indie Flower', cursive;
+}
+
+.background {
+  display: flex;
+  margin-top: 10vh;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.card-title {
+  color: black;
+}
+
+.col {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
+
+.span {
+  width: 250px;
+  position: absolute;
+  left: 10px;
+  bottom: 0px;
+  height: 25px;
+}
+
+.container {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#search {
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 22px;
+  margin-left: 14px;
+}
+
+#search-button {
+  font-family: 'Indie Flower', cursive;
+  background-color: white;
+  width: 100px;
+  height: 30px;
+  border-radius: 6px;
+  margin-left: 30px;
+  border: 1px solid white;
+  color: #ee6e73;
+  cursor: pointer;
+  margin-right: 20px;
+  font-size: 20px;
+  /* -webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, background-color 2s, transform 2s; */
+}
+
+.a {
+  font-size: 24px;
+}
+
+.b {
+  color: white;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+#search-button:hover {
+  background-color: #ee6e73;
+  color: white;
+  /* -webkit-transform: rotate(360deg);
+  transform: rotate(360deg); */
+}
+
+.container-players {
+  opacity: 0.9;
+  height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1000px;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.hero-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.test {
+  background-color: #ee6e73;
+}
+
+.hero {
+  width: 350px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.9;
+  /* flex-wrap: wrap; */
+  border-radius: 10px;
+  background-color: #ee6e73;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.doto {
+  margin-left: 70px;
+}
+
+.container-rank-by-hero {
+  display: flex;
+  font-family: sans-serif;
+  justify-content: space-evenly;
+  width: 1300px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.rank-by-hero {
+  width: 250px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 16px;
+  /* border: 1px solid black; */
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: black;
+  background-color: #339999;
+}
+
+.ava {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.player-name {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.h {
+  font-family: 'Indie Flower', cursive;
+}
+
+.card-image {
+  width: 250px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+
+}
+
+.logo {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.col {
+  width: 600px;
+  height: 400px;
+}
+
+.block {
+  width: 600px;
+  height: 300px;
+
+}
+
+.user-card {
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+  background-color: #ee6e73;
+  border-radius: 10px;
+}
+
+.card-content {
+  font-size: 20px;
+}
+
+.card-content p span {
+  font-size: 24px;
+}
+
+.card-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  /* box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset; */
+  border: 1px solid #ee6e73;
+  
+}
+
+.container-stats {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: -200px;
+}
+
+.card-stats {
+  width: 800px;
+  border-radius: 10px;
+}
+
+.go {
+  font-size: 24px;
+}
+
+/* .image {
+  width: 300px;
+  height: 300px;
+} */

@@ -1,0 +1,45 @@
+<div class="main">
+  <div class="hero-1">
+    <h2 style="color: #ee6e73;">Agility</h2>
+    {{#each agi}}
+    <div class="agi hero">
+      <img src="{{this.img}}">
+      <img src="{{this.icon}}">
+      <p><b>Hero name:</b> {{this.localized_name}}</p>
+      <a href="/rankbyhero/{{this.id}}" class='b'><p><b>Hero id:</b> {{this.id}}</p></a>
+      <p><b>Attack type:</b> {{this.attack_type}}</p>
+      <p><b>Roles:</b> {{this.roles}}</p>
+    </div>
+    {{/each}}
+  </div>
+  
+  <div class="hero-1">
+    <h2 style="color: #ee6e73;">Strength</h2>  
+    {{#each str}}
+      <div class="str hero">
+      <img src="{{this.img}}">
+        <img src="{{this.icon}}">
+        <p><b>Hero name:</b> {{this.localized_name}}</p>
+        <a href="/rankbyhero/{{this.id}}" class='b'><p><b>Hero id:</b> {{this.id}}</p></a>
+        <p><b>Attack type:</b> {{this.attack_type}}</p>
+        <p><b>Roles:</b> {{this.roles}}</p>
+      </div>
+    {{/each}}
+  </div>
+  
+  <div class="hero-1">
+    <h2 style="color: #ee6e73;">Inteligence</h2>
+    {{#each int}}
+    <div class="int hero">
+      <img src="{{this.img}}">
+      <img src="{{this.icon}}">
+      <p><b>Hero name:</b> {{this.localized_name}}</p>
+      <a href="/rankbyhero/{{this.id}}" class='b'><p><b>Hero id:</b> {{this.id}}</p></a>
+      <p><b>Attack type:</b> {{this.attack_type}}</p>
+      <p><b>Roles:</b> {{this.roles}}</p>
+    </div>
+  {{/each}}
+  </div>
+  
+</div>
+

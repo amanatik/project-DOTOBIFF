@@ -1,0 +1,18 @@
+<h1>Current statistics</h1>
+{{#if stats}}
+<div class="container-stats">
+    <div class="col s12 m6" style='margin-top: 450px;'>
+      <div class="card red lighten-2 card-stats">
+        <div class="card-content white-text">
+          <p><b>Активных игроков:</b> <span class='go'>{{stats.user_players}}</span></p>
+          <p><b>Сыграно матчей за вчерашний день:</b> <span class='go'>{{stats.matches_last_day}}</span></p>
+          <p><b>Сыграно матчей за последний час:</b> <span class='go'>{{stats.matches_last_hour}}</span></p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+          <a href="#">This is a link</a>
+        </div>
+      </div>
+    </div>
+</div>
+{{/if}}

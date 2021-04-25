@@ -1,0 +1,13 @@
+<h4 class='h'>Лучшие игроки на этом герое</h4>
+<div class="container-rank-by-hero">
+  {{#each topPlayersByHero}}
+    <div class="rank-by-hero">
+      <img class='ava' src="{{this.avatar}}">
+      <p class='player-name'><b>{{this.personaname}}</b></p>
+      <p><b>MMR:</b> {{this.score}}</p>
+      <p><b>Account id:</b> {{this.account_id}}</p>
+      <p><b>Last login:</b> {{this.last_login}}</p>
+    </div>
+  {{/each}}
+</div>
+
